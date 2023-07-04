@@ -1,0 +1,9 @@
+version: '3.7'
+
+services:
+  selenium_scraper:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      - AMBIENTE=DOCKER
